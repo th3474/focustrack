@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.jpeg" alt="FocusTrack Logo" width="600"/>
+  <img src="logo.jpeg" alt="FocusTrack Logo" width="900"/>
 </p>
 
 # FocusTrack
