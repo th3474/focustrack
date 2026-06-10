@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Logo.PNG" alt="FocusTrack Logo" width="300"/>
+  <img src="logo.jpeg" alt="FocusTrack Logo" width="300"/>
 </p>
 
 # FocusTrack
@@ -60,7 +60,7 @@ All task events are timestamped and written to `session.csv` for synchronization
 
 ---
 
-## ⚙️ Hardware
+## Hardware
 
 | # | Part |
 |---|------|
@@ -75,7 +75,7 @@ All task events are timestamped and written to `session.csv` for synchronization
 | 9 | Wet wipes |
 | 10 | Sensor Cable — Electrode Pads (3-connector) |
 
-Electrodes are placed at the outer canthi and above/below the eye in standard EOG configuration. The BioAmp EXG Pill amplifies the biopotential signal before it reaches the Arduino's analog input pins.
+Electrodes are placed at the outer canthi and in each temples in standard EOG configuration. The BioAmp EXG Pill amplifies the biopotential signal before it reaches the Arduino's analog input pins.
 
 <p align="center">
   <img src="3D_Model.png" alt="FocusTrack 3D Model — Fusion 360 glasses enclosure with BioAmp and PCB modules" width="600"/>
@@ -121,7 +121,7 @@ The script will automatically launch the EOG logger as a background thread, disp
 
 ---
 
-## 📊 Output Format
+## Output Format
 
 `session.csv` logs two types of rows:
 
@@ -139,7 +139,7 @@ computer_time, arduino_time_ms, posX, posY, state, rawH, rawV, deltaH, deltaV
 
 ---
 
-## 🔭 Outcomes & Next Steps
+## Outcomes & Next Steps
 
 EOG signals successfully capture directional eye movement (left/right detection), which is foundational to analyzing ADHD-associated distraction patterns.
 
@@ -152,13 +152,13 @@ EOG signals successfully capture directional eye movement (left/right detection)
 
 ---
 
-## 👥 Team
+## Team
 
 | Name | Role |
 |------|------|
-| **Marina McMahon** | Task code & testing |
-| **Theodore Hua** | Design (3D model, logo, animation) |
-| **Jane Manalu** | ADHD statistics & problem statement |
+| **Marina McMahon** | ADHD statistics & Research & Co-Task code |
+| **Theodore Hua** | Design (Hardware-prototyping, 3D model, logo, animation) |
+| **Jane Manalu** | Product Managing & Co-Task code & Research & Testing |
 | **Vincent Sugianto** | Main firmware & hardware integration |
 | **Bhavya Sanjana** | Future implementation & product impact |
 
@@ -166,6 +166,6 @@ EOG signals successfully capture directional eye movement (left/right detection)
 
 ---
 
-## 📄 License
+## License
 
 This project was developed as an academic capstone. Please contact the team before reusing or building upon this work.
