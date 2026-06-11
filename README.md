@@ -2,7 +2,7 @@
   <img src="logo.jpeg" alt="FocusTrack Logo" width="900"/>
 </p>
 
-# FocusTrack
+# 👁️👁️ FocusTrack
 
 > **EOG-based wearable for passive eye movement tracking as a biomarker for ADHD distraction.**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 FocusTrack is a low-cost, wearable ADHD diagnostic prototype that uses **Electrooculography (EOG)** to passively capture and classify eye movement biomarkers associated with attention deficits. Rather than relying on expensive camera-based pupil tracking (often $10,000+) or invasive clinical testing, FocusTrack embeds sensing electronics directly into a custom 3D-printed glasses frame, enabling naturalistic, ambulatory data collection.
 
@@ -20,7 +20,7 @@ EOG signals are processed by an Arduino microcontroller to detect directional ey
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Wearable form factor** — all components embedded in a 3D-printed glasses enclosure designed in Fusion 360
 - **Real-time EOG signal processing** — moving average filtering, dynamic baseline calibration, and directional state classification on Arduino
@@ -30,7 +30,7 @@ EOG signals are processed by an Arduino microcontroller to detect directional ey
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 focustrack/
@@ -44,7 +44,7 @@ focustrack/
 
 ---
 
-## 🔬 Cognitive Task Battery
+## Cognitive Task Battery
 
 The test protocol (`adhd_test.py`) runs three sequential tasks:
 
@@ -85,7 +85,7 @@ Electrodes are placed at the outer canthi and in each temples in standard EOG co
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
